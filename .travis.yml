@@ -15,6 +15,6 @@ jobs:
       deploy:
         provider: script
         skip_cleanup: true
-        script:
-          - npx semantic-release
-        branch: jeff-tian
+        script: "npx semantic-release"
+        on:
+          branch: jeff-tian
