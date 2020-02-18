@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { textSelect, removeDefaultBehavior, isFunction } from "./utils";
+import classNames from 'classnames';
 import "./index.css";
 
 export default class extends Component {
@@ -112,7 +113,7 @@ export default class extends Component {
       );
     }
     return (
-      <div className={this.props.style === 'dashed' ? "dashed codebox-container" : "codebox-container"}>
+      <div className={classNames('codebox-container', ...(this.props.style || '').split(' '))}>
         <form>{codeBox}</form>
       </div>
     );
