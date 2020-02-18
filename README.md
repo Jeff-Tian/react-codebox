@@ -2,19 +2,25 @@
 
 验证码输入框的 React 实现.
 
-[在线 demo](https://axetroy.github.io/react-codebox/)
+[在线 demo](https://jeff-tian.github.io/react-codebox/)
 
 ## Install
 
 ```bash
-yarn add @axetroy/react-codebox
+yarn add @jeff-tian/react-codebox
+```
+
+或者
+
+```bash
+npm i @jeff-tian/react-codebox --save
 ```
 
 ## Usage
 
 ```jsx harmony
 import React, { Component } from "react";
-import Codebox from "@axetroy/react-codebox";
+import Codebox from "@jeff-tian/react-codebox";
 
 class App extends Component {
   render() {
@@ -38,4 +44,4 @@ class App extends Component {
 
 ### License
 
-The [MIT License](https://github.com/axetroy/react-codebox/blob/master/LICENSE)
+The [MIT License](https://github.com/jeff-tian/react-codebox/blob/master/LICENSE)

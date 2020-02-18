@@ -19,7 +19,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="container">
-        <a target="_blank" href={`https://github.com/axetroy/react-codebox`}>
+        <a target="_blank" href={`https://github.com/jeff-tian/react-codebox`}>
           <svg
             width="80"
             height="80"
@@ -76,6 +76,24 @@ export default class App extends Component {
             </h3>
             <Codebox
               length={4}
+              validator={(input, index) => {
+                return /\d/i.test(input);
+              }}
+              onChange={codeArray => {
+                this.setState({
+                  numberCode: codeArray.map(v => (v === "" ? " " : v)).join("")
+                });
+              }}
+            />
+          </div>
+          <div className="example-item">
+            <h3>
+              数字验证码 <span className="desc">仅接收输入的数字（Dash 样式）</span>
+              当前值: <span>{this.state.numberCode}</span>
+            </h3>
+            <Codebox
+              style='dashed'
+              length={6}
               validator={(input, index) => {
                 return /\d/i.test(input);
               }}

@@ -112,7 +112,7 @@ export default class extends Component {
       );
     }
     return (
-      <div className="codebox-container">
+      <div className={this.props.style === 'dashed' ? "dashed codebox-container" : "codebox-container"}>
         <form>{codeBox}</form>
       </div>
     );

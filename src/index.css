@@ -32,3 +32,8 @@
   border: 1px solid #d6d6d6;
   border-radius: 4px;
 }
+
+.dashed.codebox-container .codebox-field-wrap input {
+  border: none;
+  border-bottom: 1px solid #e8d8e8;
+}
