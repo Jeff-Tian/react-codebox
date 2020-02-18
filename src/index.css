@@ -36,4 +36,5 @@
 .dashed.codebox-container .codebox-field-wrap input {
   border: none;
   border-bottom: 1px solid #e8d8e8;
+  border-radius: 0;
 }

@@ -1,5 +1,8 @@
 {
   "name": "@jeff-tian/react-codebox",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.0-development",
   "description": "codebox component for react",
   "main": "./dist/index.js",
