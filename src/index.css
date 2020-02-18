@@ -38,3 +38,12 @@
   border-bottom: 1px solid #e8d8e8;
   border-radius: 0;
 }
+
+.flex.codebox-container form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex.codebox-container .codebox-field-wrap {
+  margin: 0;
+}
