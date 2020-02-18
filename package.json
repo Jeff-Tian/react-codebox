@@ -44,5 +44,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Jeff-Tian/react-codebox.git"
+  },
+  "release": {
+    "branches": [
+      "jeff-tian"
+    ]
   }
 }
