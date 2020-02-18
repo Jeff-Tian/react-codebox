@@ -1,6 +1,8 @@
 # react-codebox
 
-验证码输入框的 React 实现.
+> 验证码输入框的 React 实现.
+
+[![Build Status](https://travis-ci.com/Jeff-Tian/react-codebox.svg?branch=jeff-tian)](https://travis-ci.com/Jeff-Tian/react-codebox)
 
 [在线 demo](https://jeff-tian.github.io/react-codebox/)
 
